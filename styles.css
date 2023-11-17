@@ -1,0 +1,32 @@
+body{
+    background: linear-gradient(to right, rgba(100, 186, 213), rgba(100, 186, 213) url(../fondo.jpg));
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 200px;
+    color: aquamarine;
+}
+img{
+     float: right;
+     vertical-align: bottom;
+     border-radius: 10px;
+     width: 550;
+     height: 330;
+     filter: drop-shadow(0 0 10px rgb(130, 214, 241));
+}
+input{
+    border-radius: 15px;
+    padding: 2px;
+    border: 2px solid black;
+    }
+select[name="marca"]{
+    border-radius: 20px;
+    padding: 2px;
+    border: 2px solid black;
+    }
+.select-box {
+    border-radius: 15px;
+    padding: 2px;
+    border: 2px solid black;
+}
